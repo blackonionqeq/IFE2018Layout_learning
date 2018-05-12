@@ -1,0 +1,26 @@
+html,body{
+    margin:0;
+height:100%;
+}
+
+.section{
+    overflow: auto;
+    height:100%;
+}
+
+.leftsidebar{
+    background-color:goldenrod;
+    margin-right:0px;
+    height:100%;
+    width:300px;
+    /*用absolute+calc自适应*/
+    position:absolute;
+    right:0px;
+}
+
+.main{
+    height:100%;
+    background-color:skyblue;
+    width:calc(100% - 300px);
+    position:relative;
+}

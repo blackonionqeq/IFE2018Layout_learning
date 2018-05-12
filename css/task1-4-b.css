@@ -1,0 +1,41 @@
+html,body{
+    margin:0;
+height:100%;
+}
+
+.section{
+    height:100%;
+}
+
+.leftsidebar{
+    box-sizing:border-box;
+    background-color:goldenrod;
+
+    width:300px;
+    height:100%;
+    position:absolute;
+    left:0px;
+}
+
+
+.rightsidebar{
+    box-sizing:border-box;
+    background-color:#99CC66;
+    height:100%;
+    position:absolute;
+    width:300px;
+    right:0px;
+    top:0px;
+}
+
+.main-contant{
+    overflow:auto;
+}
+
+.main{
+    background-color:skyblue;
+    height:100%;
+    margin-left:300px;
+    width:calc(100% - 600px);
+    overflow:auto;
+}
