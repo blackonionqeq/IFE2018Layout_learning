@@ -37,6 +37,10 @@ header{
     text-decoration:underline;
 }
 
+.hnav li a{
+    color:white;
+}
+
 .banner{
     background-color:green;
     width:100%;
@@ -74,7 +78,7 @@ header{
 .btBox button:hover{
     opacity:1;
     height:3em;
-    text-align:end;
+    padding-top:1em;
 }
 
 .btBox button:focus{
